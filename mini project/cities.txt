@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap">
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      font-family: 'Quicksand', sans-serif;
+      background: #111; /* Dark background color */
+    }
+
+    #video-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    #city-container {
+      text-align: center;
+      z-index: 1;
+      position: relative;
+      color: #fff; /* White font color */
+    }
+
+    #city-container a {
+      display: inline-block;
+      margin: 10px;
+      overflow: hidden;
+      position: relative;
+      background: linear-gradient(45deg, #FFD700, #FF6347); /* Gold to Tomato gradient background */
+      border-radius: 15px;
+    }
+
+    #city-container img {
+      width: 250px;
+      height: 250px;
+      transition: transform 0.3s ease-in-out;
+      border-radius: 15px;
+    }
+
+    #city-container h1 {
+      margin-top: 20px;
+      font-size: 3em; /* Adjust font size */
+      color: #333; /* Dark font color */
+      cursor: pointer; /* Add cursor style to indicate it's clickable */
+    }
+
+    #city-container h2 {
+      margin-top: 5px;
+      font-size: 1.5em; /* Adjust font size */
+      color: #FF00FF; /* Neon Pink color */
+    }
+
+    #city-container a:hover img {
+      transform: scale(1.1);
+    }
+
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      color: #fff; /* White font color */
+    }
+  </style>
+</head>
+
+<body>
+  <a href=index.html>Home</a>
+  <div id="video-container">
+    <video autoplay muted loop>
+      <source src="nature.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div id="city-container">
+    <h1 onclick="window.location.href='login.html'">MAJOR CITIES</h1>
+
+    <a href="frame.html">
+      <img src="vizag.jpg" alt="Vizag">
+      <h2>VIZAG</h2>
+    </a>
+    <a href="frame.html">
+      <img src="bang.jpeg" alt="Bangalore">
+      <h2>BANGALORE</h2>
+    </a>
+    <a href="frame.html">
+      <img src="mumbai.jpeg" alt="Mumbai">
+      <h2>MUMBAI</h2>
+    </a>
+    <a href="frame.html">
+      <img src="hyd.jpeg" alt="Hyderabad">
+      <h2>HYDERABAD</h2>
+    </a>
+  </div>
+  <footer>2023 copyright WasteManagement</footer>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body {
+  background-color: pink;
+  background-image: url('na.jpg'); /* Add the path to your background image */
+  background-size: cover;
+}
+
+/* Additional styling for the table or other elements can be added here */
+
+</style>
+</head>
+<body>
+    <h1>Waste Recycling Form</h1>
+    <a href="w2.html">Home</a>
+    <table>
+        <tr>
+            <td><img src="ima.jpeg" alt="Waste Recycling"></td>
+            <td>
+                <form action="submit.php" method="post">
+                    <table>
+                        <tr>
+                            <th>Waste Recycle</th>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Name</th>
+                            <td><input type="text" name="name"></td>
+                        </tr>
+                        <tr>
+                            <th>Contact</th>
+                            <td><input type="text" name="contact"></td>
+                        </tr>
+                        <tr>
+                            <th>Community</th>
+                            <td><input type="text" name="community"></td>
+                        </tr>
+                        <tr>
+                            <th>Address</th>
+                            <td><input type="text" name="address"></td>
+                        </tr>
+                        <tr>
+                            <th>Waste Type</th>
+                            <td>
+                                <select name="waste">
+                                    <option value="glass">Glass</option>
+                                    <option value="plastic">Plastic</option>
+                                    <option value="organic">Organic</option>
+                                    <option value="paper">Paper</option>
+                                    <option value="metal">Metal</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                    <input type="submit" name="submit" value="Submit">
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

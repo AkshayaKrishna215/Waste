@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Frame Layout</title>
+</head>
+<frameset rows="20%, 80%" border=0>
+  <frame src="w3.html">
+  <frameset cols="50%, 50%">
+    <frame src="w1.html">
+    <frame src="w2.html">
+  </frameset>
+</frameset>
+</html>

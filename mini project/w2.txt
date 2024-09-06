@@ -1,0 +1,23 @@
+<html>
+<style>
+body {
+  background-color:pink;
+}
+
+</style>
+
+<h1>Waste Recycling</h1>
+  <a href="buys.html"><img  src="recycle.jpeg"  width="250" heigth="250" alt="Waste Recycling"></a> 
+<pre style="margin-left: 270px;color:black;margin-top:1px;">click on the picture
+
+  When client in Waste Collectors who are
+  people who want to collect 
+  waste and want to use that waste for 
+  their own use.they include the companies 
+  waste and organisations who require those 
+  waste products as raw materials for their 
+  products.They can select what type of waste
+  do they need &can order it</pre>
+ 
+</body>
+</html>

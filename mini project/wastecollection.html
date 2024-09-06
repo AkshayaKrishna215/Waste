@@ -1,0 +1,41 @@
+
+<html>
+<head>
+    
+    <title>Waste Collection Form</title>
+	<style>
+    body {
+      background-image: url("sun.jpeg");
+      background-size: cover;
+    }
+  </style>
+
+</head>
+
+<body>
+    <h2>Waste Collection Form</h2>
+  
+    <form action="sell.php" method="post">
+        <label for="Name" style="margin-right:80px">Name:</label>
+        <input type="text" name="Name" required><br>
+
+        <label for="Contact_number" style="margin-right:12px">Contact Number:</label>
+        <input type="text" name="Contact_number" required><br>
+
+        <label for="Community" style="margin-right:42px">Community:</label>
+        <input type="text" name="Community" required><br>
+
+        <label for="Waste_Type" style="margin-right:44px">Waste Type:</label>
+        <input type="text" name="Waste_Type" required><br>
+
+        <label for="Quantity" style="margin-right:62px">Quantity:</label>
+        <input type="number" name="Quantity" required><br>
+
+        <label for="Address" style="margin-right:66px">Address:</label>
+        <textarea name="Address" rows="1" required></textarea><br>
+
+        <input type="submit" name="Submit" value="Submit">
+    </form>
+	
+</body>
+</html>

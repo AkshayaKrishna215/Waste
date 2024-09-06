@@ -1,0 +1,37 @@
+
+
+<html >
+
+<head>
+
+
+
+
+<title>Website With Login & Registration | Codehal</title>
+
+
+<link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1 class="logo">Waste Management</h1>
+
+<nav class="navigation">
+
+<a href="mini1.html">Home</a>
+
+<a href="service.html">services</a>
+<a href="index.html">Login</a></nav>
+</header>
+<body>
+<h1 style="color:red">
+Elevate your surrounding
+</h1>
+<h2 style="color:red;font-size:25px">
+everyday make your surrounding clean and green and make mother earth a better place to live</h2>
+</body>
+</html>

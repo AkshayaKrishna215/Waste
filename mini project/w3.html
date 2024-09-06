@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color: yellow;
+      text-align: center;
+    }
+
+    @keyframes moveAnimation {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(450px);
+      }
+    }
+
+    .animated-object {
+      width: 70px;
+      height: 70px;
+      top: 21px;
+      left: 775px;
+      position: absolute;
+      animation: moveAnimation 4s linear infinite;
+    }
+
+    .animatedobject {
+      width: 70px;
+      height: 70px;
+      top: 21px;
+      left: 1px;
+      position: absolute;
+      animation: moveAnimation 4s linear infinite;
+    }
+
+    a {
+      position: absolute;
+      right: 200px;
+      top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <h1>THRIFT WASTE</h1>
+  <p>Everyday make your surroundings clean and green and name mother earth a better place to live</p>
+  <a href="mini1.html" target="_top">Logout</a>
+  <img src="anima.PNG" alt="Animated Object" class="animated-object">
+  <img src="anima.PNG" alt="Animated Object" class="animatedobject">
+</body>
+</html>
